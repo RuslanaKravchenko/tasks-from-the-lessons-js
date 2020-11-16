@@ -23,8 +23,8 @@ const products = [
     name: 'juice',
     value: 'Сок',
     price: 34,
-    // sale: true,
-    // quantity: 24,
+    sale: true,
+    quantity: 24,
   },
   {
     id: '4',
@@ -39,8 +39,8 @@ const products = [
     name: 'milkShake',
     value: 'Молочный коктейль',
     price: 37,
-    // sale: false,
-    // quantity: 37,
+    sale: false,
+    quantity: 37,
   },
 ];
 // 1. Создайте функцию getSaleProducts(), которая вернет новый массив со свойством sale равным true.
